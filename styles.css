@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("./Images/VI_Assets/header-bg.jpg");
+}
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#logo {
+  width: 18%;
+  height: 18%;
+  padding: 20px;
+}
+#services {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+#portfolio {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+#about {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+#team {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+#contact {
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+#welcome {
+  text-align: center;
+  color: white;
+  margin-top: 200px;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: italic;
+  font-size: 2.25rem;
+}
+
+#meet {
+  text-align: center;
+  color: white;
+  font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-style: italic;
+  font-size: 4.25rem;
+}
+#footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+#Use {
+    margin-left: 20px;
+}
